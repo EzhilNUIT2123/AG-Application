@@ -11,7 +11,6 @@
 		D8AD19722A03B44C00E03C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19712A03B44C00E03C90 /* SceneDelegate.swift */; };
 		D8AD19742A03B44C00E03C90 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19732A03B44C00E03C90 /* MainTabBarViewController.swift */; };
 		D8AD19792A03B45000E03C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AD19782A03B45000E03C90 /* Assets.xcassets */; };
-		D8AD197C2A03B45000E03C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AD197A2A03B45000E03C90 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +18,7 @@
 		D8AD196F2A03B44C00E03C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8AD19712A03B44C00E03C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D8AD19732A03B44C00E03C90 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		D8AD19782A03B45000E03C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8AD197B2A03B45000E03C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8AD19782A03B45000E03C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		D8AD197D2A03B45000E03C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 		D8AD19872A03B4B400E03C90 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				D8AD197A2A03B45000E03C90 /* LaunchScreen.storyboard */,
 				D8AD19782A03B45000E03C90 /* Assets.xcassets */,
 			);
 			path = SupportingFiles;
@@ -162,7 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8AD197C2A03B45000E03C90 /* LaunchScreen.storyboard in Resources */,
 				D8AD19792A03B45000E03C90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,17 +177,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D8AD197A2A03B45000E03C90 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8AD197B2A03B45000E03C90 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D8AD197E2A03B45000E03C90 /* Debug */ = {
