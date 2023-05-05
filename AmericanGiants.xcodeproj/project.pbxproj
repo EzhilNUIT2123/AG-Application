@@ -11,6 +11,13 @@
 		D8AD19722A03B44C00E03C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19712A03B44C00E03C90 /* SceneDelegate.swift */; };
 		D8AD19742A03B44C00E03C90 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19732A03B44C00E03C90 /* MainTabBarViewController.swift */; };
 		D8AD19792A03B45000E03C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AD19782A03B45000E03C90 /* Assets.xcassets */; };
+		D8AD19AC2A04C6E000E03C90 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AD19AB2A04C6E000E03C90 /* WelcomeViewController.storyboard */; };
+		D8AD19AE2A04CB1600E03C90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19AD2A04CB1600E03C90 /* HomeViewController.swift */; };
+		D8AD19B02A04CB2600E03C90 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19AF2A04CB2600E03C90 /* CartViewController.swift */; };
+		D8AD19B22A04CB3B00E03C90 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19B12A04CB3B00E03C90 /* UserViewController.swift */; };
+		D8AD19B42A050D4600E03C90 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19B32A050D4600E03C90 /* Constants.swift */; };
+		D8AD19B62A050DF800E03C90 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19B52A050DF800E03C90 /* WelcomeViewController.swift */; };
+		D8AD19B82A05198600E03C90 /* imageSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AD19B72A05198600E03C90 /* imageSets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		D8AD19732A03B44C00E03C90 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		D8AD19782A03B45000E03C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		D8AD197D2A03B45000E03C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8AD19AB2A04C6E000E03C90 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = WelcomeViewController.storyboard; path = AmericanGiants/WelcomeViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		D8AD19AD2A04CB1600E03C90 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D8AD19AF2A04CB2600E03C90 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		D8AD19B12A04CB3B00E03C90 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D8AD19B32A050D4600E03C90 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = AmericanGiants/Controller/Constants.swift; sourceTree = SOURCE_ROOT; };
+		D8AD19B52A050DF800E03C90 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D8AD19B72A05198600E03C90 /* imageSets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = imageSets.xcassets; path = AmericanGiants/Controller/imageSets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,7 @@
 		D8AD19832A03B46900E03C90 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D8AD19B32A050D4600E03C90 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,6 +89,8 @@
 		D8AD19842A03B47200E03C90 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D8AD19AB2A04C6E000E03C90 /* WelcomeViewController.storyboard */,
+				D8AD19B72A05198600E03C90 /* imageSets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				D8AD19732A03B44C00E03C90 /* MainTabBarViewController.swift */,
+				D8AD19AD2A04CB1600E03C90 /* HomeViewController.swift */,
+				D8AD19AF2A04CB2600E03C90 /* CartViewController.swift */,
+				D8AD19B12A04CB3B00E03C90 /* UserViewController.swift */,
+				D8AD19B52A050DF800E03C90 /* WelcomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AD19B82A05198600E03C90 /* imageSets.xcassets in Resources */,
 				D8AD19792A03B45000E03C90 /* Assets.xcassets in Resources */,
+				D8AD19AC2A04C6E000E03C90 /* WelcomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +194,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8AD19742A03B44C00E03C90 /* MainTabBarViewController.swift in Sources */,
+				D8AD19B62A050DF800E03C90 /* WelcomeViewController.swift in Sources */,
+				D8AD19B22A04CB3B00E03C90 /* UserViewController.swift in Sources */,
 				D8AD19702A03B44C00E03C90 /* AppDelegate.swift in Sources */,
+				D8AD19B02A04CB2600E03C90 /* CartViewController.swift in Sources */,
+				D8AD19B42A050D4600E03C90 /* Constants.swift in Sources */,
 				D8AD19722A03B44C00E03C90 /* SceneDelegate.swift in Sources */,
+				D8AD19AE2A04CB1600E03C90 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +331,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AmericanGiants/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = WelcomeViewController;
+				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +359,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AmericanGiants/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = WelcomeViewController;
+				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
