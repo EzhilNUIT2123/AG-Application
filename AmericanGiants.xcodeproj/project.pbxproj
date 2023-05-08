@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B52A550CFA057A3CFB619A /* Pods_AmericanGiants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6906A97238BADAC0B426B69 /* Pods_AmericanGiants.framework */; };
 		D8AD19702A03B44C00E03C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD196F2A03B44C00E03C90 /* AppDelegate.swift */; };
 		D8AD19722A03B44C00E03C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19712A03B44C00E03C90 /* SceneDelegate.swift */; };
 		D8AD19742A03B44C00E03C90 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19732A03B44C00E03C90 /* MainTabBarViewController.swift */; };
@@ -16,11 +17,12 @@
 		D8AD19B02A04CB2600E03C90 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19AF2A04CB2600E03C90 /* CartViewController.swift */; };
 		D8AD19B22A04CB3B00E03C90 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19B12A04CB3B00E03C90 /* UserViewController.swift */; };
 		D8AD19B42A050D4600E03C90 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19B32A050D4600E03C90 /* Constants.swift */; };
-		D8AD19B62A050DF800E03C90 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD19B52A050DF800E03C90 /* WelcomeViewController.swift */; };
 		D8AD19B82A05198600E03C90 /* imageSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AD19B72A05198600E03C90 /* imageSets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39EC10A2DA116808A7F72FF7 /* Pods-AmericanGiants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmericanGiants.debug.xcconfig"; path = "Target Support Files/Pods-AmericanGiants/Pods-AmericanGiants.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8D3AC629E5FAE1B4DCD803 /* Pods-AmericanGiants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmericanGiants.release.xcconfig"; path = "Target Support Files/Pods-AmericanGiants/Pods-AmericanGiants.release.xcconfig"; sourceTree = "<group>"; };
 		D8AD196C2A03B44C00E03C90 /* AmericanGiants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmericanGiants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AD196F2A03B44C00E03C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8AD19712A03B44C00E03C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,8 +34,8 @@
 		D8AD19AF2A04CB2600E03C90 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		D8AD19B12A04CB3B00E03C90 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		D8AD19B32A050D4600E03C90 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = AmericanGiants/Controller/Constants.swift; sourceTree = SOURCE_ROOT; };
-		D8AD19B52A050DF800E03C90 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D8AD19B72A05198600E03C90 /* imageSets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = imageSets.xcassets; path = AmericanGiants/Controller/imageSets.xcassets; sourceTree = SOURCE_ROOT; };
+		F6906A97238BADAC0B426B69 /* Pods_AmericanGiants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmericanGiants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B52A550CFA057A3CFB619A /* Pods_AmericanGiants.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3099E12F9812F1FFADC15AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39EC10A2DA116808A7F72FF7 /* Pods-AmericanGiants.debug.xcconfig */,
+				9A8D3AC629E5FAE1B4DCD803 /* Pods-AmericanGiants.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B98E5FB5BD7D231379621ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6906A97238BADAC0B426B69 /* Pods_AmericanGiants.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8AD19632A03B44C00E03C90 = {
 			isa = PBXGroup;
 			children = (
 				D8AD196E2A03B44C00E03C90 /* AmericanGiants */,
 				D8AD196D2A03B44C00E03C90 /* Products */,
+				3099E12F9812F1FFADC15AAD /* Pods */,
+				B98E5FB5BD7D231379621ADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +131,6 @@
 				D8AD19AD2A04CB1600E03C90 /* HomeViewController.swift */,
 				D8AD19AF2A04CB2600E03C90 /* CartViewController.swift */,
 				D8AD19B12A04CB3B00E03C90 /* UserViewController.swift */,
-				D8AD19B52A050DF800E03C90 /* WelcomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8AD19802A03B45000E03C90 /* Build configuration list for PBXNativeTarget "AmericanGiants" */;
 			buildPhases = (
+				4C2907663E9C84CFB1F6EECF /* [CP] Check Pods Manifest.lock */,
 				D8AD19682A03B44C00E03C90 /* Sources */,
 				D8AD19692A03B44C00E03C90 /* Frameworks */,
 				D8AD196A2A03B44C00E03C90 /* Resources */,
+				83D0410948CD49B2C595BEAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,13 +211,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C2907663E9C84CFB1F6EECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmericanGiants-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D0410948CD49B2C595BEAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmericanGiants/Pods-AmericanGiants-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmericanGiants/Pods-AmericanGiants-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmericanGiants/Pods-AmericanGiants-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8AD19682A03B44C00E03C90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8AD19742A03B44C00E03C90 /* MainTabBarViewController.swift in Sources */,
-				D8AD19B62A050DF800E03C90 /* WelcomeViewController.swift in Sources */,
 				D8AD19B22A04CB3B00E03C90 /* UserViewController.swift in Sources */,
 				D8AD19702A03B44C00E03C90 /* AppDelegate.swift in Sources */,
 				D8AD19B02A04CB2600E03C90 /* CartViewController.swift in Sources */,
@@ -323,6 +387,7 @@
 		};
 		D8AD19812A03B45000E03C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EC10A2DA116808A7F72FF7 /* Pods-AmericanGiants.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -351,6 +416,7 @@
 		};
 		D8AD19822A03B45000E03C90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8D3AC629E5FAE1B4DCD803 /* Pods-AmericanGiants.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
