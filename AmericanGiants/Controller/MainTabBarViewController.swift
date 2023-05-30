@@ -24,7 +24,7 @@ class MainTabBarViewController: UITabBarController {
         vc2.tabBarItem.image = UIImage(systemName: "cart")
         vc2.tabBarItem.title = "Cart"
         vc3.tabBarItem.image = UIImage(systemName: "person.circle")
-        vc3.tabBarItem.title = "Profile"
+        vc3.tabBarItem.title = "Account"
         
         tabBar.tintColor = .label
         
